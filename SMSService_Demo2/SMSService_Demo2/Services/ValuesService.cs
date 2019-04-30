@@ -34,20 +34,3 @@ namespace SMSService_Demo2.Services
     }
 }
 
-
-//private string getServiceFromRaw(string request)
-//{
-//    string service = string.Empty;
-//    List<string> vals = request.Split("\r\n").ToList();
-//    foreach (string s in vals)
-//    {
-//        string[] arr = new string[1];
-//        arr = s.Split(':');
-//        if (arr[0].ToUpper() == "SERVICE")
-//        {
-//            service = arr[1];
-//            break;
-//        }
-//    }
-//    return service;
-//}
